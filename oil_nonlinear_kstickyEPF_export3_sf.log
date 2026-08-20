@@ -1,0 +1,142 @@
+Starting Dynare (version 7.0).
+Calling Dynare with arguments: noclearall
+Starting preprocessing of the model file ... 
+WARNING: Parameter(s) theta_w mcss lambdass s_c s_i xi_k kappa_p kappa_w target_oil_share_out  not used in the model 
+Found 36 equation(s). 
+Evaluating expressions... 
+Computing static model derivatives (order 1). 
+Normalizing the static model... 
+Normalization failed with cutoff, trying symbolic normalization... 
+Finding the optimal block decomposition of the static model... 
+12 block(s) found: 
+  10 recursive block(s) and 2 simultaneous block(s). 
+  the largest simultaneous block has 16 equation(s) 
+                                 and 16 feedback variable(s). 
+Computing dynamic model derivatives (order 2). 
+Normalizing the dynamic model... 
+Finding the optimal block decomposition of the dynamic model... 
+7 block(s) found: 
+  5 recursive block(s) and 2 simultaneous block(s). 
+  the largest simultaneous block has 17 equation(s) 
+                                 and 15 feedback variable(s). 
+Preprocessing completed. 
+Preprocessing time: 0h00m00s.
+
+
+Residuals of the static equations:
+Equation number  1: g     :       0.000000
+Equation number  2: a     :       0.000000
+Equation number  3: po    :       0.000000
+Equation number  4: cp    :       0.000000
+Equation number  5: 5     :       0.000000
+Equation number  6: 6     :       0.000000
+Equation number  7: 7     :       0.000000
+Equation number  8: 8     :       0.000000
+Equation number  9: 9     :       0.000000
+Equation number 10: 10    :       0.000000
+Equation number 11: 11    :       0.000000
+Equation number 12: y     :       0.000000
+Equation number 13: 13    :       0.000000
+Equation number 14: rk    :       0.000000
+Equation number 15: pe    :       0.000000
+Equation number 16: wstar :       0.000000
+Equation number 17: muw   :       0.000000
+Equation number 18: 18    :       0.000000
+Equation number 19: w     :       0.000000
+Equation number 20: 20    :       0.000000
+Equation number 21: 21    :       0.000000
+Equation number 22: ygap  :       0.000000
+Equation number 23: 23    :       0.000000
+Equation number 24: 24    :       0.000000
+Equation number 25: 25    :       0.000000
+Equation number 26: rn    :       0.000000
+Equation number 27: 27    :       0.000000
+Equation number 28: 28    :       0.000000
+Equation number 29: 29    :       0.000000
+Equation number 30: yn    :       0.000000
+Equation number 31: mcn   :       0.000000
+Equation number 32: 32    :       0.000000
+Equation number 33: rkn   :       0.000000
+Equation number 34: 34    :       0.000000
+Equation number 35: wn    :       0.000000
+Equation number 36: 36    :       0.000000
+
+
+
+STEADY-STATE RESULTS:
+
+c       		 0
+n       		 0
+u       		 0
+k       		 0
+inv     		 0
+y       		 0
+a       		 0
+g       		 0
+pi      		 0
+piw     		 0
+R       		 0
+mc      		 0
+w       		 0
+rk      		 0
+lambda  		 0
+uc      		 0
+wstar   		 0
+muw     		 0
+q       		 0
+cn      		 0
+nn      		 0
+un      		 0
+kn      		 0
+invn    		 0
+yn      		 0
+rn      		 0
+rkn     		 0
+lambdan 		 0
+ucn     		 0
+wn      		 0
+mcn     		 0
+qn      		 0
+ygap    		 0
+po      		 0
+pe      		 0
+cp      		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+               0                0                0
+               0                0                0
+             0.5              0.5                0
+          0.5137           0.5114          0.04889
+          0.5137           0.5114         -0.04889
+          0.5852           0.5852                0
+           0.614           0.5583           0.2556
+           0.614           0.5583          -0.2556
+          0.6452           0.6452                0
+          0.8042           0.8042                0
+          0.8144           0.8144                0
+            0.85             0.85                0
+          0.9425           0.9425                0
+          0.9522           0.9522                0
+               1                1                0
+           1.061            1.061                0
+           1.062            1.062          0.02233
+           1.062            1.062         -0.02233
+           1.256            1.256                0
+           1.288            1.288                0
+           1.311            1.256           0.3763
+           1.311            1.256          -0.3763
+           1.496            1.496                0
+           1.725            1.725                0
+             Inf              Inf                0
+             Inf              Inf                0
+             Inf              Inf                0
+             Inf              Inf                0
+             Inf             -Inf                0
+             Inf              Inf                0
+
+There are 15 eigenvalue(s) larger than 1 in modulus for 15 forward-looking variable(s).
+The order and rank conditions are verified.
+
+Total computing time : 0h00m00s
+Note: 1 warning(s) encountered in the preprocessor
