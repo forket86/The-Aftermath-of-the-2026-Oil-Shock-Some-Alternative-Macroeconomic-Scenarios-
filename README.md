@@ -4,7 +4,7 @@
 *Chicago Fed Letter*, No. 523, July 2026. Federal Reserve Bank of Chicago.  
 DOI: [10.21033/cfl-2026-523](https://doi.org/10.21033/cfl-2026-523) · [Article](https://www.chicagofed.org/publications/chicago-fed-letter/2026/523)
 
-This package contains the MATLAB code, Dynare model, and public EIA input for Figures 1–4. **Licensed Haver/Bloomberg observations and the CSVs derived from them are intentionally excluded pending confirmation of redistribution rights.** The package is therefore not self-contained: authorized users must supply those inputs locally to run every figure.
+This package contains the MATLAB code, Dynare model, and public EIA input for Figures 1–4. **Licensed Haver/Bloomberg observations and the CSVs derived from them are intentionally excluded pending confirmation of redistribution rights.** 
 
 Open MATLAB with this directory as the **Current Folder**. The scripts use relative paths. Filenames are case-sensitive on some systems: `fig1.m` is lowercase; `Fig2.m`, `Fig3.m`, and `Fig4.m` begin with uppercase `F`.
 
@@ -13,9 +13,7 @@ Open MATLAB with this directory as the **Current Folder**. The scripts use relat
 - MATLAB; [Dynare 7.0](https://www.dynare.org/) is required for `Fig2.m`–`Fig4.m`.
 - `fig1.m` requires authorized access to the Haver Analytics `cbd.data` interface, a personal [FRED API key](https://fred.stlouisfed.org/docs/api/api_key.html), and an internet connection. It uses the included `data_raw/petroleum_consumption_ann.xls`, sourced from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MTTUPUS2&f=A).
 - `commodity_prices.m` requires authorized commodity and oil-futures data in `data_raw/commodityprices.csv` plus the corresponding series-information file `data_raw/commodities_info.xlsx`. These Bloomberg-sourced files are **not** included.
-- `Fig2.m` and `Fig3.m` require `data_created/wtifutures_exp_March.csv`, produced by `commodity_prices.m`. `Fig4.m` also requires `data_created/wtichanges_seventies.csv`, produced by `fig1.m`. Neither derived CSV is distributed here because its underlying market data may be subject to redistribution limits.
-
-The `data_created/` directory is empty by design. For a private manual test, authorized users may place existing copies of the two derived CSVs there without rerunning the data-preparation scripts. Remove those copies before distributing this folder unless their redistribution has been cleared.
+- `Fig2.m` and `Fig3.m` require `data_created/wtifutures_exp_March.csv`, produced by `commodity_prices.m`. `Fig4.m` also requires `data_created/wtichanges_seventies.csv`, produced by `fig1.m`. 
 
 ## Platform setup
 
@@ -34,5 +32,3 @@ The `figures_png/` directory is supplied empty. Dynare generates model code, res
 ## Data provenance
 
 The included `petroleum_consumption_ann.xls` is an EIA spreadsheet for the annual U.S. product-supplied series. Source: U.S. Energy Information Administration, [U.S. Product Supplied of Crude Oil and Petroleum Products](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MTTUPUS2&f=A), downloaded in 2026. The EIA [permits redistribution of its website data with acknowledgment](https://www.eia.gov/about/copyrights_reuse.php).
-
-The article identifies oil-price inputs from the Chicago Mercantile Exchange obtained through Haver Analytics and Bloomberg PerSecurity. This copy contains neither those vendor extracts nor their derived calibration CSVs. 
