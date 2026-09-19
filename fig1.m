@@ -6,7 +6,7 @@ clear; clc; close all;
 
 
 % This will be used to pull data from Haver
-addpath('O:\PROJ_LIB\Presentations\Chartbook\Data\Dataset Creation\cbd');
+addpath('enter_cbd_path');
 graphname1 = 'Fig1_1x2';
 graphname2 = 'Fig1_singlepanel';
 graphname2_png = 'fig1';
