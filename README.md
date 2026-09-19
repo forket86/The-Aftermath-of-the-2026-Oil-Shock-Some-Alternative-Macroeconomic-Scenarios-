@@ -4,7 +4,7 @@
 *Chicago Fed Letter*, No. 523, July 2026. Federal Reserve Bank of Chicago.  
 DOI: [10.21033/cfl-2026-523](https://doi.org/10.21033/cfl-2026-523) · [Article](https://www.chicagofed.org/publications/chicago-fed-letter/2026/523)
 
-This package contains the MATLAB code, Dynare model, and public EIA input for Figures 1–4. **Licensed Haver/Bloomberg observations and the CSVs derived from them are intentionally excluded pending confirmation of redistribution rights.** 
+This package contains the MATLAB code, Dynare model, and public EIA input for Figures 1–4.  
 
 Open MATLAB with this directory as the **Current Folder**. The scripts use relative paths. 
 
