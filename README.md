@@ -6,7 +6,7 @@ DOI: [10.21033/cfl-2026-523](https://doi.org/10.21033/cfl-2026-523) · [Article]
 
 This package contains the MATLAB code, Dynare model, and public EIA input for Figures 1–4. **Licensed Haver/Bloomberg observations and the CSVs derived from them are intentionally excluded pending confirmation of redistribution rights.** 
 
-Open MATLAB with this directory as the **Current Folder**. The scripts use relative paths. Filenames are case-sensitive on some systems: `fig1.m` is lowercase; `Fig2.m`, `Fig3.m`, and `Fig4.m` begin with uppercase `F`.
+Open MATLAB with this directory as the **Current Folder**. The scripts use relative paths. 
 
 ## Requirements and inputs
 
